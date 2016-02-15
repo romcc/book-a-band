@@ -1,4 +1,24 @@
 Rails.application.routes.draw do
+  get 'admin/blankpage'
+
+  get 'admin/bootstrapelements'
+
+  get 'admin/bootstrapgrid'
+
+  get 'admin/bootstrap_grid'
+
+  get 'admin/blank-page'
+
+  get 'admin/bootstrap-grid'
+
+  get 'admin/bootstrap-elements'
+
+  get 'admin/forms'
+
+  get 'admin/tables'
+
+  get 'admin/charts'
+
   get 'admin/adminpage'
 
   get 'home/bandportfolio'
