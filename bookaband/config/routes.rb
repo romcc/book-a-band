@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'admin/adminpage'
+
+  get 'home/bandportfolio'
+
   get 'home/searchbands'
 
   get 'home/homepage'
